@@ -2,7 +2,7 @@
 Существует много способов, чтобы получить данные от Raspberry Pi 1 в Arduino.
 В даннм репозитории используется два варианта по Serial и с спользованием протокола i2c.
 
-##Serial
+## Serial
 Подключаем Arduino по USB в Raspberry Pi.
 Загружаем код `read_data_by_serial.ino` В Arduino. Теперь Ардуино будет получать данные в виде строки по Serial.
 
@@ -27,7 +27,7 @@ ser.write(b'hello world')
 
 Получая определенные значения по Serial, Arduino будет отправлять на пин сигнал.
 
-##i2c
+## i2c
 Подключить Arduino к Rasberry Pi как показано на картинке ниже
 
 [![](https://www.rootfront.com/image/photo/8105081.png)](https://www.rootfront.com/image/photo/8105081.png)
